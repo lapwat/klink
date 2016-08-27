@@ -15,6 +15,6 @@
 Your credentials won't be store and only be used once for the first login.  
 *appstate.json* will contain your facebook session for further connections.
 
-If any errors are thrown into the terminal --> ctrl+c, delete *appsate.json*, rerun the server.
+If any errors are thrown into the terminal, just restart the server.
 
 Enjoy!
