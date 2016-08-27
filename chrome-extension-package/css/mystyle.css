@@ -1,0 +1,68 @@
+html {
+    width: 300px;
+    height: 200px;
+}
+
+body {
+    width: 300px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+    background-color: #CFD8DC;
+    font-family: 'Roboto', sans-serif;
+}
+
+#photo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.19), 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+}
+
+#search input[type=text], #message input[type=text] {
+    border: 0;
+}
+
+.collection a.collection-item {
+    font-size: 1.5em;
+    color: #607D8B;
+    padding: 7px 10px 4px 10px;
+}
+
+li.list-item {
+    /*opacity: 0;*/
+    margin-bottom:1px;
+    line-height:50px;
+    overflow: hidden;
+}
+
+#connect_button {
+    margin: 15px 0;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+#searchbox {
+    background-color: white;
+    margin: 0;
+}
+
+#messagebox {
+    background-color: white;
+    margin: 0 0 1px 0;
+}
+
+.nomargin {
+    margin: 0;
+}
+
+#friendslist {
+    border: 0;
+}

@@ -1,0 +1,21 @@
+{
+  "name": "socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bufferutil": "^1.2.1",
+    "ecstatic": "^1.4.1",
+    "express": "^4.13.4",
+    "facebook-chat-api": "^1.1.0",
+    "file-exists": "^1.0.0",
+    "path": "^0.12.7",
+    "socket.io": "^1.4.6",
+    "utf-8-validate": "^1.2.1"
+  }
+}
