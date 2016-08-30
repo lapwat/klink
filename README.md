@@ -1,5 +1,5 @@
 # klink
-[BETA] This extension will share any active tab through Facebook Messenger with one click.
+This extension will share any active tab through Facebook Messenger with one click.
 
 **Server part**  
 • From your terminal, go into **nodejs-server** folder and run *npm install*  
@@ -13,7 +13,7 @@
 • You should see a new extension in the toolbar, use your Facebook credentials to log in  
 
 Your credentials won't be store and only be used once for the first login.  
-*appstate.json* will contain your facebook session for further connections.
+Next, *appstate.json* will contain your Facebook session for further connections.
 
 If any errors are thrown into the terminal, just restart the server.
 

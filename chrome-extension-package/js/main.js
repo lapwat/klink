@@ -32,11 +32,13 @@ $(document).ready(function() {
                 break;
             case 'loading':
                 $('#connection').hide();
+                $('#footer').hide();
                 $('#connect_button').addClass('disabled');
                 $('#status > .determinate').addClass('indeterminate deep-orange').removeClass('determinate red green');
                 break;
             case 'disconnected':
                 $('#connection').show();
+                $('#footer').show();
                 $('#status > .indeterminate').addClass('determinate red').removeClass('indeterminate green deep-orange');
                 break;
             default:
@@ -65,6 +67,7 @@ $(document).ready(function() {
 
     // panneau de connexion
     $('#connection').load('html/connection.html');
+    $('#footer').load('html/footer.html');
     $('#connection').on('click', '#connect_button', function() {
         socket.emit('login', {email:$('#email').val(), password:$('#password').val()});
     });

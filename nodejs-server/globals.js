@@ -1,3 +1,3 @@
-var Globals = {};
+var Globals = {}
 
-module.exports = Globals;
+module.exports = Globals
