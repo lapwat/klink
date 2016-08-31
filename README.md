@@ -1,4 +1,5 @@
-# klink
+# Klink
+![Klink image](chrome-extension-package/icon.png)
 This extension will share any active tab through Facebook Messenger with one click.
 
 **Server part**  
