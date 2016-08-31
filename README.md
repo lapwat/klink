@@ -1,5 +1,4 @@
-# Klink
-<img src="chrome-extension-package/icon.png" width="100">
+# Klink <img src="chrome-extension-package/icon.png" width="100">
 This extension will share any active tab through Facebook Messenger with one click.
 
 **Server part**  
