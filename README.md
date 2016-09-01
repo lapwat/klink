@@ -4,6 +4,7 @@ This Chrome extension will share any active tab through Facebook Messenger with 
 ![Screenshot](screenshot.png)
 
 ### Server part
+- Make sure you have [Node.js](https://nodejs.org/) installed
 - From your terminal, go into **nodejs-server** folder and run `npm install`  
 - Then run the server by executing `npm start`  
 - Wait for `Listening on :8080` message  
