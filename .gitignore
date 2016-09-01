@@ -1,4 +1,5 @@
 .DS_Store
 
-nodejs-server/node_modules
+nodejs-server/node_modules/*
 nodejs-server/appstate.json
+nodejs-server/npm-debug.log

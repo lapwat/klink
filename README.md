@@ -3,7 +3,7 @@ This extension will share any active tab through Facebook Messenger with one cli
 
 **Server part**  
 • From your terminal, go into **nodejs-server** folder and run *npm install*  
-• Then run the server by executing *node app.js*  
+• Then run the server by executing *npm start*  
 • Wait for *Listening on :8080* message  
 
 **Extension part**  

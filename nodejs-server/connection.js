@@ -14,19 +14,19 @@ exports.credsLog = function(credentials) {
         } else {
             globals.api = api
             fs.writeFileSync('appstate.json', JSON.stringify(api.getAppState()))
+            globals.socket.emit('status', 'connected')
             friendslist.sendFriendsList(50)
         }
     })
 }
 
-exports.autoLog = function(callback) {
+exports.autoLog = function() {
     login({appState: JSON.parse(fs.readFileSync('appstate.json', 'utf8'))}, function callback (err, api) {
         if(err) {
             globals.socket.emit('erreur', err)
             globals.socket.emit('status', 'disconnected')
         } else {
             globals.api = api
-            globals.socket.emit('status', 'connected')
         }
     })
 }
