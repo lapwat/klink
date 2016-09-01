@@ -52,6 +52,4 @@ io.sockets.on('connection', function (socket) {
         }
         globals.socket.emit('share_ok', message)
     })
-
-
 })

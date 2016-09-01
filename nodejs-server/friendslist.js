@@ -1,8 +1,8 @@
-var https = require('https')
+// librairies npm
 var fs = require('fs')
 
+// librairies perso
 var globals = require('./globals.js')
-
 
 exports.sendFriendsList = function(length) {
     globals.api.getThreadList(0, length, function(err, arr) {
