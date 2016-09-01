@@ -6,11 +6,11 @@ This Chrome extension will share any active tab through Facebook Messenger with 
 ### Server part
 - Make sure you have [Node.js](https://nodejs.org/) installed
 - From your terminal, go into **nodejs-server** folder and run `npm install`  
-- Then run the server by executing `npm start`  
+- Run the server by executing `npm start`  
 - Wait for `Listening on :8080` message  
 
 ### Extension part
-- In Google Chrome, type `chrome://extensions` in a new tab  
+- From Google Chrome, type `chrome://extensions` in a new tab  
 - Check *Developer mode*  
 - Click *Load unpacked extension* and select the **chrome-extension-package** folder of the project  
 - You should see a new extension in the toolbar, use your Facebook credentials to log in  
