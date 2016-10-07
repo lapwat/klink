@@ -1,0 +1,10 @@
+pkgbase = klink
+	pkgdesc = This Chrome extension will share any active tab through Facebook Messenger with one click.
+	pkgver = 1.0.0
+	pkgrel = 1
+	arch = any
+	depends = npm>=3.10.8-1
+	source = https://github.com/KeNt178/klink
+
+pkgname = klink
+
