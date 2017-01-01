@@ -1,0 +1,16 @@
+{
+  "name": "FBConsole",
+  "description": "A secrete FB chat on Develop console",
+  "version": "0.0.0.1",
+  "icons": { "128": "img/F_.png" },
+  "options_page": "option/option.html",
+  "permissions":["background", "tabs", "storage", "notifications"],
+  "background":{"scripts": ["js/socket.io.js", "background.js"] },
+  "browser_action": {
+    "default_title": "FBConsole",
+    "default_icon": "img/F_.png",
+    "default_popup": "pop.html"
+  },
+  "devtools_page": "devtool/devtools.html",
+  "manifest_version": 2
+}

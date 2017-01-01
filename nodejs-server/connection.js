@@ -30,3 +30,11 @@ exports.autoLog = function() {
         }
     })
 }
+
+exports.sendMessage = function(message) {
+    globals.api.sendMessage(message.content, message.sendToId , function (err) {
+        if (err) {
+          globals.socket.emit('erreur', err)
+        }
+    })
+}

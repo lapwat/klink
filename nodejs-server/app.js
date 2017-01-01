@@ -52,4 +52,10 @@ io.sockets.on('connection', function (socket) {
         }
         globals.socket.emit('share_ok', message)
     })
+
+    // sending message
+    globals.socket.on('send', function(message) {
+        globals.socket.emit('status', 'sending')
+        connection.sendMessage(message)
+    })
 })
