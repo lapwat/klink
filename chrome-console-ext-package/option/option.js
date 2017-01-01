@@ -91,4 +91,5 @@ document.addEventListener('DOMContentLoaded', function () {
   get_user_list();
   document.getElementById('save').addEventListener('click', saveID);
   document.getElementById('user_list').addEventListener('change', setMsgTo);
+  if (window.innerHeight < 500) document.getElementById('footer').style.display = 'none'
 });

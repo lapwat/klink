@@ -2,7 +2,7 @@ var con = new SimpleConsole({
 	handleCommand: handle_command,
 	placeholder: "Enter your message",
 	storageID: "simple-console demo",
-	sys: true // TODO: Become setting in option page
+	sys: false// TODO: Become setting in option page, Debug function
 });
 document.body.appendChild(con.element);
 
@@ -38,6 +38,11 @@ socket.on('status', function(status) {
             break
         default:
     }
+})
+
+socket.on('receive', function (message) {
+	if(message.senderID == sendToId)
+		con.warn(message.content);
 })
 
 socket.on('share_ok', function (message) {
