@@ -19,8 +19,7 @@ function handleMessage(message) {
 		return
 	}
 	else if (message.body !== undefined && message.body != "") {
-		console.log("New message sender " + message.senderID + ": " + message.body)
-		messageBody = " - " + message.body
+		messageBody = ": " + message.body
 	}
 
 	if (message.attachments.length == 0){

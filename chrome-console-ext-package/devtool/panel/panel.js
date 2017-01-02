@@ -1,8 +1,10 @@
+var lastMsg = ""
+
 var con = new SimpleConsole({
 	handleCommand: handle_command,
-	placeholder: "Enter your message",
+	placeholder: "Initializing...",
 	storageID: "simple-console demo",
-	sys: false// TODO: Become setting in option page, Debug function
+	sys: false// TODO: Become setting in option page
 });
 document.body.appendChild(con.element);
 
@@ -41,8 +43,10 @@ socket.on('status', function(status) {
 })
 
 socket.on('receive', function (message) {
-	if(message.senderID == sendToId)
-		con.warn(message.content);
+	if(message.senderID == sendToId && message.content != lastMsg){
+		con.warn(message.content)
+		lastMsg = message.content
+	}
 })
 
 socket.on('share_ok', function (message) {

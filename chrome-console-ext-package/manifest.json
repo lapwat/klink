@@ -1,7 +1,7 @@
 {
   "name": "FBConsole",
   "description": "A secrete FB chat on Develop console",
-  "version": "0.0.1",
+  "version": "0.0.1.1",
   "icons": { "128": "img/F_.png" },
   "options_page": "option/option.html",
   "permissions":["background", "tabs", "storage", "notifications"],
