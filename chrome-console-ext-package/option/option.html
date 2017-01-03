@@ -1,0 +1,60 @@
+<html>
+<head>
+  <title></title>
+<style>
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14pt;
+}
+button{
+  width: 200px;
+  background-color: #3B5A9B;
+  color: white;
+  border: none;
+}
+button:hover{
+  background-color: #6495ed;
+}
+</style>
+<script src="/js/socket.io.js"></script>
+<script src="option.js"></script>
+</head>
+<body style='text-align:center;'>
+<img src='/img/F_.png' style="margin-top:5%;" />
+    <div style="width: 400px; margin-left: auto; margin-right: auto; margin-top: 10px;">
+        <strong id='providePass' ></strong>
+        <br />
+        <p id='provideAccount' style="display: inline; font-size: small;" >FBemail</p>
+        <input id='account' type='text' placeholder="ex: yanganto@gmail.com" style="width:200px; margin-top: 20px;" >
+        <br />
+        <p id='providePassword' style="display: inline; font-size: small;" >PassWd</p>
+        <input id='password' type='password' placeholder="Your facebook password" style="width:200px; margin-top: 20px;" >
+        <br />
+        <p style="display: inline; font-size: small;" >Msg To</p>
+        <select id='user_list'style="width:200px; margin-top: 20px;" >
+        </select>
+        <!-- TODO Image <img id='user_icon' style="display: none" src=""> -->
+        <!-- TODO DEBUG mode -->
+        <!-- TODO Black console mode -->
+    </div>
+    <button id='save' style="margin-top:20px; "><span id='saveTag'>Connect</span></button>
+    <div id="footer" style="position: absolute; width:800px; margin-left: auto; margin-right: auto; bottom: 10px; color:gray; font-size: 8px; text-align:left;">
+      <!-- TODO rewrite footer-->
+      <p>
+      MIT License
+      created by Antonio (yanganto@gmail.com)
+      <br/>
+      <br/>
+      Thanks:
+      <br/>
+      simep-console by 1j01 (https://github.com/1j01/simple-console#console-log-content)
+      <br/>
+      klink by KeNt178 (https://github.com/KeNt178/klink)
+      <br/>
+      Messer by mjkaufer (https://github.com/mjkaufer/Messer)
+      <br/>
+      facebook-chat-api @ Schmavery (https://github.com/Schmavery/facebook-chat-api)
+      </p>
+    </div>
+</body>
+</html>
