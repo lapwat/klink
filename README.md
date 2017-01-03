@@ -24,12 +24,12 @@ If any errors are thrown into the terminal, just restart the server.
 Enjoy!
 
 # <img src="chrome-console-ext-package/img/F_.png" width="40"> FBConsole
-This Chrome extension will chat with somebody through Facebook Messenger with in developer tools
+This Chrome extension will chat with somebody through Facebook Messenger within developer tools
 
 ![Screenshot](screenshot-FBconsole.png)
 
 ### Server part
-the same as Klink server
+The same as Klink server
 
 ### FBconsole Extension part
 
