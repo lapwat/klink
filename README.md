@@ -37,4 +37,3 @@ the same as Klink server
 - Check *Developer mode*  
 - Click *Load unpacked extension* and select the **chrome-console-ext-package** folder of the project  
 - You should see a new extension in the toolbar, go to option page to log in  Facebook and set up the person you want to chat
-![Screenshot](FBconsole_option.png)
