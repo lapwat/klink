@@ -1,7 +1,7 @@
 # <img src="chrome-extension-package/icon.png" width="40"> Klink
 This Chrome extension will share any active tab through Facebook Messenger with one click.
 
-![Screenshot](screenshot.png)
+![Screenshot](screenshot-Klink.png)
 
 ### Server part
 - Make sure you have [Node.js](https://nodejs.org/) installed
@@ -26,7 +26,7 @@ Enjoy!
 # <img src="chrome-console-ext-package/img/F_.png" width="40"> FBConsole
 This Chrome extension will chat with somebody through Facebook Messenger with in developer tools
 
-![Screenshot](FBconsole.png)
+![Screenshot](screenshot-FBconsole.png)
 
 ### Server part
 the same as Klink server
