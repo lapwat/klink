@@ -17,7 +17,8 @@ $(document).ready(function() {
 
         $('#friendslist').addClass('collection')
         $.each(threads, function (i, val) {
-            $('#friendslist').append('<li class="list-item ' + ((i === 0)?'first':'') + '"><a id="' + val.id + '" href="#" class="collection-item waves-effect waves-dark"><img src="' + ((val.image)?val.image:'https://graph.facebook.com/'+val.id+'/picture?width=50') + '" alt="Contact Person"><span>' + val.name + '</span></a></li>')
+            imageURL = val.image ? val.image : (val.group ? 'images/no_pic.png' : 'https://graph.facebook.com/'+val.id+'/picture?width=50')
+            $('#friendslist').append('<li class="list-item ' + ((i === 0)?'first':'') + '"><a id="' + val.id + '" href="#" class="collection-item waves-effect waves-dark"><img src="' + imageURL + '" alt="Contact Person"><span>' + val.name + '</span></a></li>')
         })
 
         $('li.list-item').filter(function(index) {

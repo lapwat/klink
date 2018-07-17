@@ -5,7 +5,7 @@ var fs = require('fs')
 var globals = require('./globals.js')
 
 exports.sendFriendsList = function(length) {
-    globals.api.getThreadList(0, length, function(err, arr) {
+    globals.api.getThreadList(50, null, [], function(err, arr) {
         var threads = []
         var ids = []
         for (var i = 0; i < arr.length; i++) {
